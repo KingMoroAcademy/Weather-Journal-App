@@ -1,0 +1,21 @@
+{
+  "name": "weather-journal-app",
+  "version": "1.0.0",
+  "description": "## Weather web app with asynchronous that uses Web API and user data to dynamically update the UI.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": ["Weather app", "Weather by Zipcode"],
+  "author": "Mohamed Shaker",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

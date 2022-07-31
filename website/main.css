@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1em;
+  background: #eee;
+  color: #444;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 170, 0);
+}
+a:hover {
+  color: rgb(123, 81, 17);
+}
+
+header, footer {
+  background: #444;
+  color: #eee;
+  padding: 20px;
+}
+
+header {
+  font-size: 2em;
+}
+
+.container {
+  min-height: 100vh;
+}
+
+.userForm, .resultsContainer, .instructions {
+  background: #444;
+  color: #eee;
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 5px 10px 10px #888;
+}
+
+.instructions .title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.instructions ol {
+  padding: 10px 20px;
+}
+.instructions ol li {
+  margin-bottom: 10px;
+}
+
+.userForm .holder {
+  width: 100%;
+}
+.userForm .holder input, .userForm .holder textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+}
+.userForm .holder #feelings {
+  resize: none;
+}
+.userForm #generate {
+  padding: 10px;
+  margin: 5px auto;
+  background: #685;
+  color: #eee;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  transition: 0.4s ease-in-out;
+}
+.userForm #generate:hover {
+  background: rgb(52, 78, 39);
+  color: #fff;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.resultsContainer {
+  display: none;
+}
+.resultsContainer .title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.wrong {
+  color: rgb(230, 163, 139);
+}/*# sourceMappingURL=main.css.map */

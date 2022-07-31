@@ -1,0 +1,109 @@
+
+$primaryColor: #444;
+$secondaryColor: #eee;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1em;
+    background: $secondaryColor;
+    color: $primaryColor;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 170, 0);
+    &:hover {
+        color: rgb(123, 81, 17);
+    }
+}
+
+header, footer {
+    background: $primaryColor;
+    color: $secondaryColor;
+    padding: 20px;
+}
+
+header {
+    font-size: 2em;
+}
+
+.container {
+    min-height: 100vh;
+}
+
+.userForm, .resultsContainer, .instructions {
+    background: $primaryColor;
+    color: $secondaryColor;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 5px 10px 10px #888;
+}
+
+.instructions {
+    .title {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+    ol {
+        padding: 10px 20px;
+        li {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.userForm {
+    .holder {
+        width: 100%;
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+        }
+        #feelings {
+            resize: none;
+        }
+    }
+    #generate {
+        padding: 10px;
+        margin: 5px auto;
+        background: #685;
+        color: $secondaryColor;
+        border: 1px solid $secondaryColor;
+        border-radius: 8px;
+        transition: .4s ease-in-out;
+        &:hover {
+            background: rgb(52, 78, 39);
+            color: #fff;
+            transition: .4s ease-in-out;
+            cursor: pointer;
+        }
+    }
+}
+
+.resultsContainer {
+    display: none;
+    .title {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.wrong {
+    color: rgb(230, 163, 139);
+}

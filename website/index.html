@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "author" content = "Mohamed Shaker">
+    <title>Weather Journal App</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body id = "app">
+    <header><div id = "logo">Weather Jopurnal App</div></header>
+    <div class="container">
+        <div class="instructions">
+            <div class="title">How to use the Weather Journal app?</div>
+            <ol>
+                <li>In the Zipcode field put your area zipcode (Required)</li>
+                <li>You can add your feelings in the feelings box (optional)</li>
+                <li>click on the generate button</li>
+                <li>A new results box will appear below</li>
+                <li>Have fun!</li>
+            </ol>
+        </div>
+        <div class="userForm">
+            <div class="holder zip">
+                <input type="text" id = "zip" placeholder = "Enter zip code here">
+            </div>
+            <div class="holder feel">
+                <textarea class = "userInput" id = "feelings" placeholder = "Enter your feelings here" rows = "5"></textarea>
+            </div>
+            <button id="generate" type = "submit"> Generate </button>
+        </div>
+    
+        <div class="resultsContainer">
+            <div class="title">Most recent Entry</div>
+            <div id="entryHolder">
+                <div id="date"></div>
+                <div id="temp"></div>
+                <div id="content"></div>
+            </div>
+        </div>
+    </div>
+    
+    <footer><div class="author">Designed by: Mohamed Shaker - See my projects on <a href = "https://github.com/KingMoroAcademy/">Github</a></div></footer>
+
+    <script src = "app.js"></script>
+</body>
+</html>
