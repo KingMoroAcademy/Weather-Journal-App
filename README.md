@@ -59,4 +59,4 @@ HTML5 - SASS to make perfect CSS3 style - Pure JavaScript - Google webfont - Nod
 
 This is version 1.0.  
 Released to github in July 31, 2022
-Project Link on Github: https://github.com/KingMoroAcademy/landing-page
+Project Link on Github: https://github.com/KingMoroAcademy/Weather-Journal-App
